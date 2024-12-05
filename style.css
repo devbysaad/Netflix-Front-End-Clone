@@ -512,3 +512,182 @@ footer a {
     border-radius: 4px;
     } 
 }
+@media screen and (max-width:812px) {
+    .layout-text-net> :nth-child(1) {
+        font-weight: 650;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .layout-text-net> :nth-child(2) {
+        font-weight: 650;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .layout-text-net> :nth-child(3) {
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .layout-text-net> :nth-child(4) {
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 10px;
+    }
+    .first-sect-text :nth-child(1) {
+    
+        font-size: 30px;
+        font-weight: bolder;
+        
+    }
+    
+    .first-sect-text :nth-child(2) {
+        
+        font-size: 14px;
+    }
+    
+    .first-sect-text :nth-child(3) {
+        
+        font-size: 14px;
+    }
+    .first-sect-img img{
+        width: 250px;
+     flex-wrap: wrap;
+        }
+        .first-sect-img video{
+         flex-wrap: wrap;
+         width: 180px;
+         position: absolute;
+         top: 35px;
+         left: 5px;
+        }
+        .first-sect-nt {
+           
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        nav img {
+            display: flex;
+            justify-content: left;
+            margin-top: 30px;
+            padding-left:2px ;
+            width: 100px;
+            color: red;
+            position: relative;
+            z-index: 10;
+        }
+        .inp-email-nt {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgba(23, 23, 23, 0.9);
+            border: 1px solid rgba(23, 23, 23, 0.9);
+            color: aliceblue;
+            padding: 11px 130px 10px 35px;
+            font-size: 10px;
+            font-style: inherit;
+            border-radius: 4px;
+            margin-right: 9px;
+            margin: 10px;
+        }
+        .gs-btn-red, .footer-gs-btn{
+            background-color: rgba(237, 7, 7, 0.901);
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            color: white;
+            border: 2px solid rgba(237, 7, 7, 0.901);
+            padding: 10px 40px 9px 40px;
+            margin: 10px;
+        }
+        .footer-gs-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 78px;
+        }
+        .sign-btn-red {
+            margin-top: 50px;
+            background-color: rgba(237, 7, 7, 0.901);
+            font-family: 'Poppins', sans-serif;
+            font-size: 8px;
+            color: white;
+            border: 2px solid rgba(237, 7, 7, 0.901);
+            padding: 1px 40px 1px 30px;
+            margin: 6px;
+            }
+        
+        .lang-btn-nt {
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.185);
+            border: 1px solid rgb(255, 252, 252);
+            color: white;
+            position: relative;
+            z-index: 10;
+            font-family: 'Poppins', sans-serif;
+            font-size: 8px;
+            color: white;
+            padding: 4px 20px 4px 10px;
+            margin: 10px;
+            
+        }
+        .lst-text-footer {
+            font-size: 30px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .last-footer-text-nt {
+            max-width: 83vw;
+            margin: auto;
+        }
+        .footer-sect-text div {
+            display: flex
+        ;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            color: aliceblue;
+        }
+        .first-sect-img img {
+            width: 260px;
+            flex-wrap: wrap;
+        }
+        .first-sect-img video {
+            flex-wrap: wrap;
+            width: 210px;
+            position: absolute;
+            top: 71px;
+            left: 30px;
+        }
+        .first-sect-text :nth-child(1) {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .all-sect-nt{
+            padding-top: 40px;
+            padding-bottom: 100px;
+        }
+        .second-sect-nt{
+            padding-top: 1px;
+            padding-bottom: 140px;
+        }
+        .fir-sect-nt{
+            padding-bottom: 40px;
+        }
+        .thirt-sect-nt{
+            padding-bottom: 55px;
+        }
+        .fourth-sect-nt{
+            padding-top: 10px;
+            padding-bottom: 140px;
+        }
+    
+}
